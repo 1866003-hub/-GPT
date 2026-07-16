@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    overflow:hidden;
+    background:#87ceeb;
+    font-family:Arial,sans-serif;
+}
+
+canvas{
+    display:block;
+}
+
+#crosshair{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    color:white;
+    font-size:30px;
+    user-select:none;
+    pointer-events:none;
+}
+
+#menu{
+    position:absolute;
+    inset:0;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:#0008;
+}
+
+#menu h1{
+    color:white;
+    margin-bottom:20px;
+    font-size:60px;
+}
+
+button{
+    padding:15px 60px;
+    font-size:24px;
+    cursor:pointer;
+}
